@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['functions', 'deploy', 'helloHttp', '--runtime', 'nodejs12', '--trigger-http', '--allow-unauthenticated']
+  timeout: '1600s'
+# gcloud functions deploy helloHttp --runtime nodejs12 --trigger-http --allow-unauthenticated
