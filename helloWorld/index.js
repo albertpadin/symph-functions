@@ -7,5 +7,5 @@
  *                     More info: https://expressjs.com/en/api.html#res
  */
 exports.helloWorld = (req, res) => {
-  res.send(`Hello World!`);
+  res.send(`Hello GDG!`);
 };
